@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mascota Feliz</title>
+    
+</head>
+<body>
+    <h1 style="text-align:center;font-size:400%; background-color:black; color: white;">Mí Mascota Felíz</h1>
+    <style>
+        body {
+          background-image: url('backimage.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+    
+    <h2 style="text-align:center;">Consulta de Mascota</h2>
+
+    <form style="text-align:center;" action="/action_page.php">
+    <label for="id">Id:</label><br>
+    <input type="text" id="id" name="id" value=""><br>
+    <label for="dueno">Dueño:</label><br>
+    <input type="text" id="dueno" name="dueno" value=""><br><br>
+
+    <button onclick="displayResult()">Buscar</button>
+    <br><br>
+    <button onclick="displayResult()">Cancelar</button><br>
+    </form> 
+
+</body>
+</html>
